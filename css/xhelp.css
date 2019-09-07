@@ -1,0 +1,29 @@
+x-help {
+  display: none;
+}
+
+.xhelp-container {
+  position: relative;
+  display: inline;
+}
+.xhelp-button {
+  position: relative;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  z-index: 2;
+}
+.xhelp-message {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.xhelp-message-active {
+  display: block;
+}
+
+
