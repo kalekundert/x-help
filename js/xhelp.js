@@ -39,10 +39,11 @@ xhelp.onClickToClose = function(event) {
 }
 
 $(document).ready(function() {
+
   $('x-help').replaceWith(function() {
     return $(`
       <div class="xhelp-container">
-        <button class="xhelp-button">
+        <button type="button" class="xhelp-button">
           <span class="fas fa-question-circle"></span>
         </button>
         <div class="xhelp-message">${this.innerHTML}</div>
