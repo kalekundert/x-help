@@ -20,6 +20,8 @@ x-help {
 .xhelp-message {
   display: none;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 .xhelp-message-active {
